@@ -21,6 +21,9 @@ function sayHiToGrandma(stringy) {
   else if (stringy.toUpperCase()===stringy) {
       return ("YES INDEED!")
   }
+  else if (stringy === "I love you, Grandma.") {
+    console.log ("I love you too")    
+  }
 }
 
 sayHiToGrandma("hi")
